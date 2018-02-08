@@ -10,11 +10,12 @@ module.exports = {
       database : 'shopping_database',
       charset: 'utf8'
     },
+    debug: true,
     migrations: {
       directory: __dirname + '/knex/migrations',
     },
-    seeds: {
-      directory: __dirname + '/knex/seeds'
-    }
+    // seeds: {
+    //   directory: __dirname + '/knex/seeds'
+    // }
   }
 }
